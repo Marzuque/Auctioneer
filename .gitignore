@@ -1,0 +1,13 @@
+# Data stays out of this public repo: the Copart source file is large, and the
+# scraped SPV values are Black Book data (licensed). Share them privately.
+*.csv
+spv_out/
+raw/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
